@@ -1,0 +1,101 @@
+#contact {
+  padding: 100px;
+  text-align: center;
+  background-image: url("/dist/images/contact-background.svg");
+  background-size: cover;
+}
+
+@media (max-width: 599px) {
+  #contact {
+    padding: 20px;
+  }
+}
+
+.contact-header {
+  font-size: 30px;
+  color: hsl(216, 88%, 54%);
+}
+
+.contact-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-icons-container-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 30px;
+  margin: 0 10px;
+}
+
+@media (max-width: 430px) {
+  .contact-icon {
+    width: 25px;
+  }
+}
+
+.contact-link {
+  text-decoration: none;
+  color: hsl(216, 88%, 54%);
+  margin: 0 5px;
+}
+
+.contact-fields-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-input {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  margin: 10px 0;
+  border: 1px solid hsla(0, 0%, 100%, 0.164);
+  transition: 0.3s;
+}
+
+@media (max-width: 699px) {
+  .contact-input {
+    width: 100%;
+  }
+}
+
+.contact-input:hover {
+  box-shadow: 0 0 10px hsl(216, 88%, 54%);
+}
+
+.contact-input:focus {
+  box-shadow: 0 0 40px hsl(216, 88%, 54%);
+}
+
+.contact-button {
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: 1px solid hsla(0, 0%, 100%, 0.164);
+  background: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  border-radius: 25px;
+  background: hsl(216, 88%, 54%);
+  border: 1px solid hsl(216, 88%, 54%);
+  cursor: pointer;
+}
+
+.contact-button:active {
+  background: hsl(216, 88%, 34%);
+  border: 1px solid hsl(216, 88%, 34%);
+}
