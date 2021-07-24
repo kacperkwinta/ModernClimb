@@ -99,3 +99,9 @@
   background: hsl(216, 88%, 34%);
   border: 1px solid hsl(216, 88%, 34%);
 }
+
+input,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
