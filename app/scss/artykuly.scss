@@ -2,7 +2,6 @@ html {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -61,6 +60,7 @@ body {
 
 .periodyzacja {
   background-image: url("/dist/images/periodyzacja.webp");
+  background-position: 25%;
 }
 
 .moc {
@@ -73,4 +73,9 @@ body {
 
 .odpoczynek {
   background-image: url("/dist/images/odpoczynek.webp");
+}
+
+.antagonistyczny {
+  background-image: url("/dist/images/trening-antagonistyczny.webp");
+  background-position: 65%;
 }
