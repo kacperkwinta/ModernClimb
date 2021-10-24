@@ -1,0 +1,43 @@
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 20px 10px 20px 20px;
+}
+
+.about-us-header {
+  font-size: 30px;
+  color: hsl(216, 88%, 54%);
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .about-us-header {
+    font-size: 24px;
+  }
+}
+
+.about-us-paragraph {
+  line-height: 2;
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .about-us-paragraph {
+    font-size: 16px;
+    text-align: unset;
+    line-height: 1.5;
+  }
+}
+
+.about-us-image {
+  width: 400px;
+  margin: 0 30px;
+}
+
+@media (max-width: 767px) {
+  .about-us-image {
+    display: none;
+  }
+}

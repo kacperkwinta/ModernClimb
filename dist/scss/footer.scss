@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(0, 0%, 16%);
+
+  p {
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .footer-icon {
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin-left: 3px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

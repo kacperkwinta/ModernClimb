@@ -1,0 +1,40 @@
+article {
+  text-align: center;
+}
+
+.article-container {
+  width: 700px;
+  margin: 150px auto;
+}
+
+@media (max-width: 767px) {
+  .article-container {
+    width: 90%;
+    margin: 125px auto 50px auto;
+  }
+}
+
+.article-header {
+  font-size: 30px;
+  color: hsl(216, 88%, 54%);
+}
+
+.article-paragraph {
+  line-height: 2;
+  text-align: justify;
+}
+
+.keyword {
+  color: #f9826c;
+  font-weight: bold;
+}
+
+.plus {
+  color: #2ca043;
+  font-weight: bold;
+}
+
+.minus {
+  color: #da3633;
+  font-weight: bold;
+}

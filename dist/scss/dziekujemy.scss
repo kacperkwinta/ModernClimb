@@ -1,0 +1,50 @@
+body {
+  background-image: url("/dist/images/dziekujemy-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.thanks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 500px;
+  margin: 200px auto;
+  color: white;
+  background: hsla(0, 0%, 0%, 0.5);
+  padding: 10px 0 40px 0;
+  animation: FadeIn 0.65s ease 0s normal none;
+}
+
+@media (max-width: 525px) {
+  .thanks-container {
+    width: 95%;
+    text-align: center;
+  }
+}
+
+.thanks-header {
+  font-size: 30px;
+}
+
+.thanks-link {
+  color: hsl(216, 88%, 54%);
+  font-weight: bold;
+}
+
+@keyframes FadeIn {
+  0.0% {
+    transform: translate(0, -150px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

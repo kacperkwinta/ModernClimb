@@ -1,0 +1,81 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+body {
+  background-image: url("/dist/images/artykuly-background.svg");
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.container-articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 150px 0 0 0;
+}
+
+.articles-link {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.articles-box {
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  margin: 20px;
+  border: 1px solid hsl(0, 0%, 0%);
+  background-size: cover;
+  transition: 0.3s;
+}
+
+@media (max-width: 425px) {
+  .articles-box {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .articles-box {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+.articles-box:hover {
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+
+.articles-header {
+  font-size: 30px;
+  text-shadow: 0 0 30px hsl(0, 0%, 0%);
+}
+
+.periodyzacja {
+  background-image: url("/dist/images/periodyzacja.webp");
+  background-position: 25%;
+}
+
+.moc {
+  background-image: url("/dist/images/moc.webp");
+}
+
+.sezon {
+  background-image: url("/dist/images/sezon.webp");
+}
+
+.odpoczynek {
+  background-image: url("/dist/images/odpoczynek.webp");
+}
+
+.antagonistyczny {
+  background-image: url("/dist/images/trening-antagonistyczny.webp");
+  background-position: 65%;
+}
