@@ -109,7 +109,11 @@
     width: 0px;
     height: 2px;
     background-color: hsl(175, 50%, 44%);
-    background-image: linear-gradient(19deg, hsl(175, 50%, 44%) 0%, hsl(298, 77%, 73%) 100%);
+    background-image: linear-gradient(
+      19deg,
+      hsl(175, 50%, 44%) 0%,
+      hsl(298, 77%, 73%) 100%
+    );
     transition: 0.3s;
   }
 
@@ -118,9 +122,9 @@
   }
 
   .navigation-list-fb {
-    width: 24px;
-    height: 24px;
-    padding-top: 3px;
+    width: 26px;
+    height: 26px;
+    padding-top: 4px;
     transition: 0.3s;
   }
   .navigation-list-fb:hover {
