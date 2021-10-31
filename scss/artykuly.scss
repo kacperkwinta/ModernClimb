@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url("/dist/images/artykuly-background.svg");
+  background-image: url("/dist/images/index-background.svg");
   background-size: cover;
   color: hsl(0, 0%, 100%);
   margin: 0;
@@ -59,23 +59,19 @@ body {
 }
 
 .periodyzacja {
-  background-image: url("/dist/images/periodyzacja.webp");
+  background-image: url("/dist/images/artykuly-periodyzacja.webp");
   background-position: 25%;
 }
 
 .moc {
-  background-image: url("/dist/images/moc.webp");
+  background-image: url("/dist/images/artykuly-jak-nie-stracic-mocy.webp");
 }
 
 .sezon {
-  background-image: url("/dist/images/sezon.webp");
-}
-
-.odpoczynek {
-  background-image: url("/dist/images/odpoczynek.webp");
+  background-image: url("/dist/images/artykuly-trening-sezonowy.webp");
 }
 
 .antagonistyczny {
-  background-image: url("/dist/images/trening-antagonistyczny.webp");
+  background-image: url("/dist/images/artykuly-trening-antagonistyczny.webp");
   background-position: 65%;
 }
