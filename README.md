@@ -4,7 +4,7 @@
 
 ### Live site 🔴: [click!](https://modern-climb.pl/)
 
-![screen from site](https://i.ibb.co/rtZCmfF/readme.png)
+![screen from desktop site](https://i.ibb.co/rtZCmfF/readme.png)
 
 Used to build:
 - HTML
