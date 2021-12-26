@@ -1,6 +1,6 @@
 .services-container {
   text-align: center;
-  padding: 150px;
+  padding: 100px;
   background-image: url("/dist/images/services.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,26 +37,22 @@
 }
 
 .services-link {
+  display: inline-block;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 26px;
   color: white;
   background-color: hsla(216, 89%, 24%, 0.5);
-  border: 2px solid hsl(216, 88%, 54%);
+  border: 1px solid hsl(216, 88%, 54%);
   padding: 15px 20px;
-  border-radius: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
 @media (max-width: 991px) {
   .services-link {
-    font-size: 26px;
+    font-size: 19px;
     padding: 10px 15px;
-  }
-}
-
-@media (max-width: 767px) {
-  .services-link {
-    font-size: 20px;
   }
 }
 

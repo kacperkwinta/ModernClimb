@@ -134,83 +134,83 @@
     </div>
     <!--services-->
     <div id="services" style="height: 80px;"></div>
-    <section">
+    <section>
         <div class="services-container">
-            <h1 class="services-header">ZOBACZ NASZE PLANY TRENINGOWE</h1>
-            <a class="services-link" href="#">SPRAWDŹ</a>
+            <h1 class="services-header">ZOBACZ NASZE PLANY <br> TRENINGOWE</h1>
+            <a class="services-link" href="plany-treningowe.html">SPRAWDŹ</a>
         </div>
-        </section>
-        <!--contact-->
-        <section id="contact">
-            <form action="https://formsubmit.io/send/modernclimbmail@gmail.com" method="POST" class="contact-form">
-                <!--redirection-->
-                <input name="_redirect" type="hidden" id="name" value="https://modern-climb.pl/dziekujemy.html">
-                <!--anti spam-->
-                <h2 class="contact-header">NAPISZ DO MNIE</h2>
-                <p class="contact-paragraph">Jeśli chcesz zadać pytanie związane z treningiem lub Chciałbyś zacząć
-                    ze mną trenować.</p>
-                <div class="contact-icons-container">
-                    <div class="contact-icons-container-item">
-                        <img src="dist/images/contact-email-icon.svg" alt="" class="contact-icon"><a
-                            href="mailto:modernclimbmail@gmail.com" class="contact-link">modernclimbmail@gmail.com</a>
-                    </div>
-                    <div class="contact-icons-container-item">
-                        <img src="dist/images/contact-phone-icon.svg" alt="" class="contact-icon"><a
-                            href="tel:507962100" class="contact-link">507
-                            962 100</a>
-                    </div>
+    </section>
+    <!--contact-->
+    <section id="contact">
+        <form action="https://formsubmit.io/send/modernclimbmail@gmail.com" method="POST" class="contact-form">
+            <!--redirection-->
+            <input name="_redirect" type="hidden" id="name" value="https://modern-climb.pl/dziekujemy.html">
+            <!--anti spam-->
+            <h2 class="contact-header">NAPISZ DO MNIE</h2>
+            <p class="contact-paragraph">Jeśli chcesz zadać pytanie związane z treningiem lub Chciałbyś zacząć
+                ze mną trenować.</p>
+            <div class="contact-icons-container">
+                <div class="contact-icons-container-item">
+                    <img src="dist/images/contact-email-icon.svg" alt="" class="contact-icon"><a
+                        href="mailto:modernclimbmail@gmail.com" class="contact-link">modernclimbmail@gmail.com</a>
                 </div>
-                <div class="contact-fields-container">
-                    <div class="contact-field">
-                        <input type="text" placeholder="Imię i nazwisko" class="contact-input" name="name" required
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Imię i nazwisko'">
-                    </div>
-                    <div class="contact-field">
-                        <input type="email" name="e-mail" class="contact-input" required placeholder="Adres e-mail"
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Adres e-mail'" />
-                    </div>
-                    <div class="contact-field">
-                        <textarea name="content" required cols="30" rows="10" class="contact-input"
-                            placeholder="Treść wiadomości" onfocus="this.placeholder=''"
-                            onblur="this.placeholder='Treść wiadomości'"></textarea>
-                    </div>
+                <div class="contact-icons-container-item">
+                    <img src="dist/images/contact-phone-icon.svg" alt="" class="contact-icon"><a href="tel:507962100"
+                        class="contact-link">507
+                        962 100</a>
                 </div>
-                <button class="contact-button">Wyślij</button>
-            </form>
-        </section>
-        <footer>
-            <p>Projekt strony i wykonanie: Kacper Kwinta</p>
-            <a href="https://github.com/kacperkwinta" target="_blank" rel="noopener">
-                <img src="dist/images/github.svg" alt="github" class="footer-icon">
-            </a>
-        </footer>
+            </div>
+            <div class="contact-fields-container">
+                <div class="contact-field">
+                    <input type="text" placeholder="Imię i nazwisko" class="contact-input" name="name" required
+                        onfocus="this.placeholder=''" onblur="this.placeholder='Imię i nazwisko'">
+                </div>
+                <div class="contact-field">
+                    <input type="email" name="e-mail" class="contact-input" required placeholder="Adres e-mail"
+                        onfocus="this.placeholder=''" onblur="this.placeholder='Adres e-mail'" />
+                </div>
+                <div class="contact-field">
+                    <textarea name="content" required cols="30" rows="10" class="contact-input"
+                        placeholder="Treść wiadomości" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='Treść wiadomości'"></textarea>
+                </div>
+            </div>
+            <button class="contact-button">Wyślij</button>
+        </form>
+    </section>
+    <footer>
+        <p>Projekt strony i wykonanie: Kacper Kwinta</p>
+        <a href="https://github.com/kacperkwinta" target="_blank" rel="noopener">
+            <img src="dist/images/github.svg" alt="github" class="footer-icon">
+        </a>
+    </footer>
 
-        <script src="dist/js/main-navigation.js"></script>
+    <script src="dist/js/main-navigation.js"></script>
 
-        <!-- Messenger Wtyczka czatu Code -->
-        <div id="fb-root"></div>
-        <!-- Your Wtyczka czatu code -->
-        <div id="fb-customer-chat" class="fb-customerchat"></div>
+    <!-- Messenger Wtyczka czatu Code -->
+    <div id="fb-root"></div>
+    <!-- Your Wtyczka czatu code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-        <script>
-            var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", "107773528118858");
-            chatbox.setAttribute("attribution", "biz_inbox");
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "107773528118858");
+        chatbox.setAttribute("attribution", "biz_inbox");
 
-            window.fbAsyncInit = function () {
-                FB.init({
-                    xfbml: true,
-                    version: 'v11.0'
-                });
-            };
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v11.0'
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>

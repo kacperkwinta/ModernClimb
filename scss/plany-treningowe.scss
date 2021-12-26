@@ -1,0 +1,228 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url("/dist/images/index-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 80px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/dist/images/plan-treningowy-header.webp");
+}
+
+@media (max-width: 991px) {
+  .header {
+    background-position-x: 50%;
+  }
+}
+
+.header-title {
+  text-align: center;
+  font-size: 58px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 467px) {
+  .header-title {
+    font-size: 36px;
+  }
+}
+
+section {
+  text-align: center;
+}
+
+.plans-categories-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+@media (max-width: 991px) {
+  .plans-categories-container {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .plans-categories-container {
+    width: 90%;
+  }
+}
+
+.plan-category-link {
+  text-decoration: none;
+  color: white;
+}
+
+.plan-category {
+  width: 250px;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: hsl(200, 6%, 10%);
+  box-shadow: 0px 0px 24px 3px rgb(15, 15, 15);
+  transition: 0.3s;
+}
+
+@media (max-width: 991px) {
+  .plan-category {
+    flex: 1;
+    width: auto;
+  }
+}
+
+.plan-category-image {
+  width: 125px;
+}
+
+.plan-category:hover {
+  transform: scale(1.1);
+}
+
+// karty z opisem treningu
+
+.plan-card {
+  text-align: center;
+  margin: 0 300px 50px 300px;
+  border-radius: 5px;
+  background-color: hsl(200, 6%, 10%);
+  box-shadow: 0px 0px 24px 3px rgb(15, 15, 15);
+}
+
+@media (max-width: 991px) {
+  .plan-card {
+    margin: 0 150px 50px 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .plan-card {
+    margin: 0 75px 50px 75px;
+  }
+}
+
+.plan-card-image-wrap {
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+}
+
+@media (max-width: 467px) {
+  .plan-card-image-wrap {
+    height: 150px;
+  }
+}
+
+.card-standard {
+  background-image: url("/dist/images/plan-treningowy-plan-standard.webp");
+}
+
+.card-pro {
+  background-image: url("/dist/images/plan-treningowy-plan-pro.webp");
+  background-position-y: 50%;
+}
+
+.card-tests {
+  background-image: url("/dist/images/plan-treningowy-zdalne-testy.webp");
+}
+
+.plan-card-header {
+  margin: 0;
+  font-size: 48px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 991px) {
+  .plan-card-header {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 467px) {
+  .plan-card-header {
+    font-size: 26px;
+  }
+}
+
+.plan-card-text {
+  padding: 30px;
+}
+
+@media (max-width: 991px) {
+  .plan-card-text {
+    padding: 15px;
+  }
+}
+
+.plan-card-text-price {
+  color: gray;
+}
+
+.plan-card-text-header {
+  color: tomato;
+}
+
+.plan-card-list {
+  list-style-position: inside;
+  list-style-type: "✔️ ";
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.plan-card-list-item {
+  margin: 10px 0;
+}
+
+.plan-card-text-paragraph {
+  line-height: 1.5;
+}
+
+.plan-card-text-requirements {
+  color: #3f51b5;
+}
+
+.plan-card-order {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid hsl(132, 59%, 23%);
+  background: hsl(132, 59%, 33%);
+  transition: 0.3s;
+}
+
+.plan-card-order:hover {
+  cursor: pointer;
+  background: hsl(132, 59%, 23%);
+  border: 2px solid hsl(132, 59%, 13%);
+}
