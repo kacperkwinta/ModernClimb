@@ -1,23 +1,39 @@
 footer {
+  height: 25px;
+  font-size: 11px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background: hsl(200, 4%, 14%);
+  color: hsl(0, 0%, 100%);
 
-  p {
-    font-size: 10px;
-    color: hsl(0, 0%, 100%);
-  }
+  img {
+    margin: 0 3px;
+  } 
 
-  .footer-icon {
-    width: 14px;
-    height: 14px;
-    display: block;
-    margin-left: 5px;
-    margin-bottom: 2px;
+  .footer-github {
+    width: 16px;
+    height: 16px;
   }
 
   a {
     text-decoration: none;
+  }
+
+  .footer-hearth {
+    width: 16px;
+    height: 16px;
+    animation: hearth 1s ease 0s infinite normal none;
+  }
+}
+
+@keyframes hearth {
+  0% {
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
