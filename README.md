@@ -1,13 +1,13 @@
 # Modern Climb
 
-## Portfolio website for my friend who is climbing trainer
+## My main project, portfolio website for my friend who is climbing trainer.
 
 ### Live site 🔴: [click!](https://modern-climb.pl/)
 
 ![screen from desktop site](https://i.ibb.co/rtZCmfF/readme.png)
 
 Used to build:
-- HTML
+- Semantic HTML
 - Scss
 - Vanilla JS
 - BEM
