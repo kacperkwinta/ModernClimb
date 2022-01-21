@@ -7,7 +7,7 @@
 ![screen from desktop site](https://i.ibb.co/rtZCmfF/readme.png)
 
 Used to build:
-- Semantic HTML
+- Semantic HTML5 markup
 - Scss
 - Vanilla JS
 - BEM
