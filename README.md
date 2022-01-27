@@ -4,8 +4,6 @@
 
 ### Live site 🔴: [click!](https://modern-climb.pl/)
 
-![screen from desktop site](https://i.ibb.co/rtZCmfF/readme.png)
-
 Used to build:
 - Semantic HTML5 markup
 - Scss
