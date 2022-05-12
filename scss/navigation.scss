@@ -65,6 +65,14 @@
 }
 
 @media (max-width: 997px) {
+	.navigation-logo-link {
+		font-size: 2.3rem;
+	}
+
+	.navigation-logo-icon {
+		width: 2.5rem;
+	}
+
 	.navigation__list {
 		position: fixed;
 		bottom: 0;
@@ -81,7 +89,7 @@
 	}
 
 	.navigation__list-item {
-    margin: 1rem;
+		margin: 1rem;
 	}
 
 	.navigation-list-item-link {
@@ -99,4 +107,8 @@
 		background: none;
 		border: none;
 	}
+
+  .navigation-mobile-icon{
+    width: 2.75rem;
+  }
 }
