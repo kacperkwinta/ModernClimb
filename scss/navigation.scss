@@ -6,6 +6,7 @@
 	padding: 1rem;
 	background-color: black;
 	z-index: 1;
+	animation: navigation 1s ease;
 }
 
 .navigation__container {
@@ -114,5 +115,17 @@
 
 	.navigation-mobile-icon {
 		width: 2.75rem;
+	}
+}
+
+// animation
+
+@keyframes navigation {
+	0.0% {
+		transform: translate(0, -100px);
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
 	}
 }
