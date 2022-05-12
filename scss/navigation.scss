@@ -65,12 +65,16 @@
 }
 
 @media (max-width: 997px) {
+  .navigation{
+    padding: 0.5rem;
+  }
+
 	.navigation-logo-link {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	.navigation-logo-icon {
-		width: 3.4rem;
+		width: 3rem;
 	}
 
 	.navigation__list {
