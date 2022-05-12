@@ -3,7 +3,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	padding: 2rem;
+	padding: 1rem;
 	background-color: black;
 	z-index: 1;
 }
@@ -20,12 +20,12 @@
 	display: flex;
 	align-items: center;
 	font-weight: 700;
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 }
 
 .navigation-logo-icon {
-	width: 3rem;
-	margin-left: 1rem;
+	width: 6rem;
+	margin-right: 1rem;
 }
 
 .navigation__list {
@@ -66,11 +66,11 @@
 
 @media (max-width: 997px) {
 	.navigation-logo-link {
-		font-size: 2.3rem;
+		font-size: 1.75rem;
 	}
 
 	.navigation-logo-icon {
-		width: 2.5rem;
+		width: 3.4rem;
 	}
 
 	.navigation__list {
@@ -108,7 +108,7 @@
 		border: none;
 	}
 
-  .navigation-mobile-icon{
-    width: 2.75rem;
-  }
+	.navigation-mobile-icon {
+		width: 2.75rem;
+	}
 }
