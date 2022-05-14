@@ -2,15 +2,19 @@ main {
 	min-height: 90vh;
 	display: flex;
 	align-items: center;
-	background-image: url(/bg1.jpg);
+	background-image: url(/dist/images/index-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .main__container {
-	margin: 0 20rem 0 32rem;
+	padding: 3rem;
+	border-radius: 2rem;
+	background-color: hsla(0, 0%, 0%, 0.25);
+	margin: 0 25rem 0 35rem;
 	max-width: 700px;
 	color: white;
+	animation: textFadeIn 1s ease 0s;
 }
 
 .main__container-header {
@@ -28,11 +32,16 @@ main {
 	font-size: 2rem;
 	display: inline-block;
 	padding: 1rem 2rem;
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 	text-decoration: none;
 	border-radius: 1rem;
 	color: white;
 	animation: textFadeIn 1.5s ease 0s;
+	transition: .3s;
+}
+
+.main__container-link:hover{
+	background-color: rgba(0, 0, 0, 0.666);
 }
 
 @media (max-width: 1100px) {
