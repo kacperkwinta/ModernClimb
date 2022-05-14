@@ -8,9 +8,9 @@ main {
 }
 
 .main__container {
-	padding: 3rem;
+	padding: 5rem;
 	border-radius: 2rem;
-	background-color: hsla(0, 0%, 0%, 0.25);
+	background-color: hsla(0, 0%, 0%, 0.45);
 	margin: 0 25rem 0 35rem;
 	max-width: 700px;
 	color: white;
@@ -37,20 +37,21 @@ main {
 	border-radius: 1rem;
 	color: white;
 	animation: textFadeIn 1.5s ease 0s;
-	transition: .3s;
+	transition: 0.2s;
 }
 
-.main__container-link:hover{
+.main__container-link:hover {
 	background-color: rgba(0, 0, 0, 0.666);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1315px) {
 	main {
 		min-height: 75vh;
 	}
 
 	.main__container {
-		margin: 0 auto;
+		max-width: 500px;
+		margin: 0 20rem 0 25rem;
 	}
 
 	.main__container-header {
@@ -64,15 +65,25 @@ main {
 	.main__container-link {
 		font-size: 1.5rem;
 		padding: 1rem 1.5rem;
+		margin: 1rem 1rem 1rem 0;
 	}
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 935px) {
 	.main__container {
-		padding: 1rem;
-		text-align: left;
+		max-width: 500px;
+		margin: 0 5rem;
 	}
 }
+
+@media (max-width: 375px) {
+	.main__container {
+		max-width: 300px;
+		margin: 0 2rem;
+	}
+}
+
+// BOX WITH TEXT && MENU ANIMATION
 
 @keyframes textFadeIn {
 	0.0% {
