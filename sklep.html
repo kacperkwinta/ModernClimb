@@ -26,6 +26,64 @@
     <!-- styles -->
     <link rel="stylesheet" href="dist/css/global.css">
     <link rel="stylesheet" href="dist/css/navigation.css">
+
+    <style>
+        .container {
+            margin: 200px auto;
+            width: 900px;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+        }
+
+        .sklep {
+            width: 33%;
+            background: blue;
+            height: 200px;
+        }
+
+        .plany-treningowe {
+            width: 33%;
+            background: rgb(80, 218, 39);
+            height: 200px;
+        }
+
+        .test {
+            width: 33%;
+            background: rgb(255, 123, 0);
+            height: 200px;
+        }
+
+        .sklep1 {
+            min-height: 100vh;
+            border: 10px solid blue;
+        }
+
+        .sklep2 {
+            min-height: 100vh;
+            border: 10px solid rgb(80, 218, 39);
+        }
+
+        .sklep3 {
+            min-height: 100vh;
+            border: 10px solid rgb(255, 123, 0);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sklep1,
+        .sklep2,
+        .sklep3 {
+            font-size: 5rem;
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -80,6 +138,17 @@
         </div>
 
     </nav>
+
+    <div class="container">
+        <div class="sklep"><a href="sklep1">SKLEP</a></div>
+        <div class="plany-treningowe"> <a href="sklep2">PLANY TRENINGOWE</a> </div>
+        <div class="test"> <a href="sklep3"> TESTY </a> </div>
+    </div>
+
+    <div class="sklep1" id="#sklep1">SKLEP</div>
+    <div class="sklep2" id="#sklep2">PLANY TRENINGOWE</div>
+    <div class="sklep3" id="#sklep3">TESTY</div>
+
 
     <script src="dist/js/main-navigation.js"></script>
 
