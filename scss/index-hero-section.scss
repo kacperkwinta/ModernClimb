@@ -4,12 +4,13 @@ main {
   align-items: center;
   justify-content: end;
   background-image: url(../../dist/images/index-background.webp);
+  background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main__container {
-  margin-right: 12rem;
+  margin-right: 10rem;
   max-width: 700px;
 }
 
@@ -43,7 +44,7 @@ main {
 
 @media (max-width: 1455px) {
   .main__container {
-    margin-right: 3rem;
+    margin-right: 2rem;
     max-width: 500px;
   }
 
