@@ -7,19 +7,62 @@
   margin: 0 0 5rem 0;
 }
 
-.items-wrapper {
+.flex__container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  // border: 3px dotted red;
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
-.item {
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-  background-image: url("https://latticetraining.com/app/uploads/2022/04/Quad-Block-Hero-1.jpg");
-  background-size: cover;
+.flex__container--item {
+  // border: 2px solid pink;
+  flex-basis: 250px;
+  text-align: center;
+}
+
+.item--name {
+  color: hsl(180, 0%, 44%);
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.item--price {
+  color: #12136a;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item--link {
+  text-decoration: none;
+  background-color: #efa12e;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.5rem;
+  display: inline-block;
   border-radius: 1rem;
-  box-shadow: 0px 8px 12px rgb(0 0 0 / 6%), 0px 0px 2px rgb(0 0 0 / 25%);
+  transition: 0.3s;
+}
+
+.item--link:hover {
+  opacity: 0.7;
+}
+
+.item--buy {
+  border: 1px solid hsl(36, 86%, 46%);
+  margin-right: 3rem;
+}
+
+.item--show {
+  background-color: white;
+  color: #efa12e;
+  border: 1px solid #efa12e;
+}
+
+@media (max-width: 1315px) {
+  .sklep__container-header {
+    font-size: 3rem;
+  }
 }
