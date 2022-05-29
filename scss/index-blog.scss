@@ -7,62 +7,54 @@
   margin: 0 0 5rem 0;
 }
 
-@media (max-width: 1315px) {
-  .blog__container-header {
-    font-size: 3rem;
-  }
-}
-
 .blog__container-header::after {
   content: "";
   display: block;
   background-color: black;
-  width: 7rem;
+  width: 7.2rem;
   height: 0.5rem;
 }
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .blog__article-box {
   display: flex;
-  max-width: 45%;
   border-radius: 1rem;
-  margin: 3rem 3rem 0 0;
-  box-shadow: 0px 8px 12px rgb(0 0 0 / 6%), 0px 0px 2px rgb(0 0 0 / 25%);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .article__box-image {
-  width: 50%;
-  border-bottom-left-radius: 1rem;
-  border-top-left-radius: 1rem;
+  width: 350px;
   background-repeat: no-repeat no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .trening-antagonistyczny {
   background-image: url(../../dist/images/trening-antagonistyczny.webp);
-  background-position: 0%;
-}
-
-.trening-sezonowy {
-  background-image: url(../../dist/images/trening-sezonowy.webp);
+  background-position-y: bottom;
 }
 
 .article__box-text {
-  width: 50%;
+  width: 350px;
   padding: 2rem;
 
   h2 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.3;
   }
 
@@ -70,69 +62,49 @@
     display: inline-block;
     padding: 1rem 2rem;
     background-color: hsl(36, 86%, 56%);
+    color: white;
+    border: 1px solid #efa12e;
     text-decoration: none;
     border-radius: 1rem;
     font-size: 1.5rem;
-    color: hsl(0, 0%, 0%);
     transition: 0.2s;
   }
 
   a:hover {
-    background-color: hsl(36, 86%, 66%);
+    opacity: 0.8;
   }
 }
 
-@media (max-width: 1315px) {
-  .article__box-text {
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    p {
-      font-size: 1.75rem;
-      line-height: 1.3;
-    }
-
-    a {
-      font-size: 1.25rem;
-    }
-  }
-}
-
-@media (max-width: 1200px) {
-  .blog__article-box {
-    max-width: 70%;
-  }
-}
-
-@media (max-width: 855px) {
-  .blog__article-box {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 865px) {
   .blog__container {
-    padding: 4rem;
+    padding: 2rem;
   }
 
-  .blog__article-box {
-    margin: 1rem 0;
+  .blog__container-header {
+    font-size: 3rem;
   }
-}
 
-@media (max-width: 550px) {
   .blog__article-box {
     flex-direction: column;
   }
 
   .article__box-image {
-    width: 100%;
-    height: 200px;
-    border-radius: 1rem 1rem 0 0;
+    height: 250px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+  }
+
+  .trening-antagonistyczny {
+    background-position-y: -200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .article__box-image {
+    width: 300px;
   }
 
   .article__box-text {
-    width: 100%;
+    width: 300px;
   }
 }
