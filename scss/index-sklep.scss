@@ -5,13 +5,15 @@
 .sklep__container-header {
   font-size: 5rem;
   margin: 0 0 5rem 0;
+  text-align: center;
 }
 
 .sklep__container-header::after {
   content: "";
   display: block;
+  margin: 0 auto;
   background-color: black;
-  width: 9rem;
+  width: 20rem;
   height: 0.5rem;
 }
 
@@ -38,7 +40,6 @@
 }
 
 .item--price {
-  color: #12136a;
   font-size: 1.5rem;
   font-weight: bold;
 }

@@ -1,5 +1,5 @@
 main {
-  min-height: 85vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -95,8 +95,13 @@ main {
   }
 }
 
-// BOX WITH TEXT && MENU ANIMATION
+@media (max-width: 475px) {
+  main {
+    background-position: 20%;
+  }
+}
 
+// BOX WITH TEXT && MENU ANIMATION
 @keyframes textFadeIn {
   0.0% {
     transform: translate(0, -75px);
