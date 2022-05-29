@@ -3,6 +3,7 @@
   background-image: url(../../dist/images/blob.svg);
   background-repeat: no-repeat no-repeat;
   background-position: center;
+  background-position-y: -310px;
 }
 
 .blog__container-header {
@@ -109,6 +110,7 @@
 
   .article__box-text {
     width: 300px;
+    border-top-right-radius: 0;
 
     h2 {
       margin-top: 0;
