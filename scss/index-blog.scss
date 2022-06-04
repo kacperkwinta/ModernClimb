@@ -35,7 +35,7 @@
 }
 
 .article__box-image {
-  width: 350px;
+  width: 450px;
   background-repeat: no-repeat no-repeat;
   background-size: cover;
   border-bottom-left-radius: 1rem;
@@ -46,11 +46,11 @@
 
 .trening-antagonistyczny {
   background-image: url(../../dist/images/trening-antagonistyczny.webp);
-  background-position-y: bottom;
+  background-position-y: 70%;
 }
 
 .article__box-text {
-  width: 350px;
+  width: 450px;
   padding: 2rem;
   background-color: white;
   border-radius: 1rem;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 900px) {
   .blog__container {
     padding: 2rem;
   }
