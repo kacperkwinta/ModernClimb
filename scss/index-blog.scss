@@ -1,6 +1,6 @@
 .blog__container {
   padding: 8rem;
-  background-image: url(../../dist/images/blob.svg);
+  background-image: url(../../dist/images/blog-wave.svg);
   background-repeat: no-repeat no-repeat;
   background-position: center;
   background-position-y: -310px;
@@ -10,15 +10,6 @@
   text-align: center;
   font-size: 5rem;
   margin: 0 0 5rem 0;
-}
-
-.blog__container-header::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  background-color: black;
-  width: 15rem;
-  height: 0.5rem;
 }
 
 .wrapper {
