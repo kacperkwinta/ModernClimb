@@ -35,15 +35,15 @@ main {
   border-radius: 1rem;
   font-size: 1.6rem;
   text-decoration: none;
-  border: 1px solid hsl(36, 86%, 46%);
   color: rgb(255, 255, 255);
+  border: 1px solid hsl(36, 86%, 46%);
   background-color: hsl(36, 86%, 56%);
   animation: textFadeIn 1.5s ease 0s;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .main__container-link:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 @media (max-width: 1455px) {
