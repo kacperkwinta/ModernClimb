@@ -15,13 +15,14 @@ main {
 }
 
 .main__container-header {
-  font-size: 5.653rem;
+  font-size: 6rem;
   color: hsl(0, 0%, 100%);
   animation: textFadeIn 1s ease 0s;
   text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .main__container-paragraph {
+  line-height: 1.5;
   font-size: 2.2rem;
   color: hsl(0, 0%, 100%);
   animation: textFadeIn 1.25s ease 0s;
@@ -31,11 +32,11 @@ main {
 .main__container-link {
   display: inline-block;
   padding: 1rem 2rem;
-  font-size: 1.7rem;
-  text-decoration: none;
   border-radius: 1rem;
+  font-size: 1.6rem;
+  text-decoration: none;
   border: 1px solid hsl(36, 86%, 46%);
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: hsl(36, 86%, 56%);
   animation: textFadeIn 1.5s ease 0s;
   transition: 0.2s;
