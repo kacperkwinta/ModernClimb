@@ -12,6 +12,7 @@ article {
   padding: 2.5rem 5rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 1rem;
+  animation: fadeIn 1s ease 0s;
 }
 
 .article-header {
@@ -41,5 +42,15 @@ li {
     width: 90%;
     margin: 70px auto;
     padding: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0.0% {
+    transform: translate(0, -75px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
