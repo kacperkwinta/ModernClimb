@@ -1,0 +1,44 @@
+body {
+  background-image: url(/dist/images/article-bg.svg);
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
+
+article {
+  background: white;
+  margin: 100px auto;
+  max-width: 700px;
+  font-size: 1.6rem;
+  padding: 2.5rem 5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 1rem;
+}
+
+.article-header {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.article-paragraph {
+  line-height: 1.8;
+}
+
+.article-mini-title {
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+li {
+  line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  article {
+    width: 90%;
+    margin: 70px auto;
+  }
+}

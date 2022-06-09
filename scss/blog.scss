@@ -59,7 +59,7 @@
   line-height: 1.5;
 }
 
-.article-link:link {
+.article-link {
   display: inline-block;
   padding: 1rem 2rem;
   border: 1px solid gray;
@@ -72,6 +72,6 @@
     transition: 0.3s;
 }
 
-.article-link:link:hover {
+.article-link:hover {
   opacity: 0.7;
 }
