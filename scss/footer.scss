@@ -2,7 +2,7 @@ footer {
   text-align: center;
   font-size: 1.3rem;
   padding: 0.5rem;
-  animation: fadeIn 3s ease 0s;
+  animation: fadeIn 0.9s ease 0s;
 }
 
 a {
@@ -10,7 +10,8 @@ a {
 }
 
 @keyframes fadeIn {
-  0% {
+  0.0% {
+    transform: translate(0, -75px);
     opacity: 0;
   }
   100% {
