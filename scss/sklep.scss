@@ -1,0 +1,103 @@
+section {
+  margin: 100px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 175px;
+  padding: 10rem;
+}
+
+@media (max-width: 550px) {
+  .flex-container {
+    padding: 1rem;
+  }
+}
+
+.flex-item {
+  height: 300px;
+  width: 300px;
+}
+
+.item-image {
+  height: 300px;
+  background-size: cover;
+}
+
+.item-title {
+  font-size: 1.8rem;
+  color: gray;
+}
+
+.item-price {
+  font-size: 1.5rem;
+}
+
+.item-link {
+  display: inline-block;
+  margin: 0 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid hsl(36, 86%, 46%);
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+.item-link:hover {
+  opacity: 0.8;
+}
+
+.item-buy {
+  color: white;
+  background-color: hsl(36, 86%, 56%);
+}
+
+.item-show {
+  color: hsl(36, 86%, 56%);
+}
+
+// zdjecia itemow
+
+.koszulka {
+  background-image: url(/dist/images/sklep/koszulka-przod.png);
+}
+
+.plan-standard {
+  background-image: url(/dist/images/sklep/plan-standard.webp);
+  background-position: 0%;
+}
+
+.plan-pro {
+  background-image: url(/dist/images/sklep/plan-pro.webp);
+  background-position: 0%;
+}
+
+.plan-chwytotablica {
+  background-image: url(/dist/images/sklep/plan-chwytotablica.webp);
+  background-position: 0%;
+}
+
+.testy-podstawowe {
+  background-image: url(/dist/images/sklep/testy-podstawowe.webp);
+  background-position: 0%;
+}
+
+.testy-pelne {
+  background-image: url(/dist/images/sklep/testy-pelne.webp);
+  background-position: 0%;
+}
+
+.testy-cyfrowe {
+  background-image: url(/dist/images/sklep/testy-cyfrowe.webp);
+  background-position: 0%;
+}
