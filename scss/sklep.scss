@@ -5,6 +5,7 @@ section {
 
 h1 {
   font-size: 4rem;
+  animation: fadeIn 1s ease 0s;
 }
 
 .flex-container {
@@ -80,6 +81,7 @@ fieldset {
   justify-content: center;
   align-items: center;
   padding: 5rem;
+  border-radius: 1rem;
 }
 
 @media (max-width: 1110px) {
