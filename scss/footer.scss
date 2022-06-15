@@ -1,0 +1,19 @@
+footer {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  animation: fadeIn 3s ease 0s;
+}
+
+a {
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
