@@ -127,6 +127,12 @@ table {
   border: 1px solid gray;
   padding: 0.85rem 1rem;
   color: black;
+  transition: 0.3s;
+}
+
+.koszulka-kup:hover {
+  border: 1px solid hsl(36, 86%, 66%);
+  color: hsl(36, 86%, 66%);
 }
 // LINKI DO KOSZULEK //
 
