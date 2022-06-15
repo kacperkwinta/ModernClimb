@@ -109,7 +109,19 @@ table {
 }
 // LINKI DO PLANÓW //
 
-// LINKI DO KOSZULEK
+// LINKI DO KOSZULEK // WSZYSTKO DO KOSZULEK
+.koszulka-strona {
+  text-align: center;
+  margin-bottom: 0;  animation: fadeIn 1s ease 0s;
+
+}
+
+.order {
+  text-align: center;
+  margin-top: 3rem;
+  animation: fadeIn 1.6s ease 0s;
+}
+
 .rozmiary-container {
   display: flex;
   justify-content: center;
