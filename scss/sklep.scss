@@ -79,38 +79,54 @@ h1 {
 ///////////////////////////////
 // ZDJĘCIA ITEMKÓW
 
-.koszulka {
-  background-image: url(../../dist/images/sklep/koszulka-przod.png);
+.czarna-koszulka {
+  background-image: url(../../dist/images/sklep/czarna-koszulka-przod.png);
+}
+
+.niebieska-koszulka {
+  background-image: url(../../dist/images/sklep/niebieska-koszulka-przod.png);
 }
 
 .plan-standard {
   background-image: url(../../dist/images/sklep/plan-standard.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .plan-pro {
   background-image: url(../../dist/images/sklep/plan-pro.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .plan-chwytotablica {
   background-image: url(../../dist/images/sklep/plan-chwytotablica.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .testy-podstawowe {
   background-image: url(../../dist/images/sklep/testy-podstawowe.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .testy-pelne {
   background-image: url(../../dist/images/sklep/testy-pelne.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .testy-cyfrowe {
   background-image: url(../../dist/images/sklep/testy-cyfrowe.webp);
   background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 ////////////
@@ -151,4 +167,8 @@ h1 {
 
 .flex-item:nth-child(7) {
   animation: fadeIn 1.5s ease 0s;
+}
+
+.flex-item:nth-child(8) {
+  animation: fadeIn 1.6s ease 0s;
 }

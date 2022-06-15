@@ -1,37 +1,186 @@
 section {
-  padding: 10rem;
+  margin-top: 10rem;
 }
 
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .flex-item {
-  width: 500px;
-  height: 500px;
+  flex-basis: 500px;
 }
 
 .item-text {
-  padding: 50px;
+  padding: 5rem;
 }
 
 .product-image {
   height: 500px;
-  border-radius: 1rem;
+  animation: fadeIn 0.9s ease 0s;
 }
 
 .product-header {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  animation: fadeIn 1s ease 0s;
 }
 
 .product-price {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  animation: fadeIn 1.1s ease 0s;
 }
 
 .product-description {
+  text-align: left;
   font-size: 1.6rem;
   color: gray;
+  line-height: 1.5;
+  animation: fadeIn 1.2s ease 0s;
+}
+
+.flex-item ul {
+  margin-bottom: 3rem;
+  animation: fadeIn 1.3s ease 0s;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: gray;
+}
+
+td {
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.rozmiary {
+  text-align: center;
+  animation: fadeIn 1.4s ease 0s;
+}
+
+.buy-link {
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s;
+}
+
+// LINKI DO PLANÓW
+.one-month {
+  margin-right: 1rem;
+  background-color: hsl(83, 68%, 47%);
+  animation: fadeIn 1.4s ease 0s;
+}
+
+.one-month:hover {
+  background-color: hsl(83, 68%, 37%);
+}
+
+.three-months {
+  margin-left: 1rem;
+  background-color: hsl(203, 77%, 43%);
+  animation: fadeIn 1.5s ease 0s;
+}
+
+.three-months:hover {
+  background-color: hsl(203, 77%, 33%);
+}
+
+.btn-container {
+  text-align: center;
+}
+// LINKI DO PLANÓW //
+
+// LINKI DO KOSZULEK
+.rozmiary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeIn 1.6s ease 0s;
+}
+
+.koszulka-kup {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 0.85rem 1rem;
+  color: black;
+}
+// LINKI DO KOSZULEK //
+
+@keyframes fadeIn {
+  0.0% {
+    transform: translate(0, -75px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1199px) {
+  section {
+    padding: 1rem;
+  }
+
+  .flex-item {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-image {
+    height: 400px;
+    animation: fadeIn 0.9s ease 0s;
+  }
+}
+
+@media (max-width: 481px) {
+  .buy-link {
+    display: block;
+  }
+
+  .one-month {
+    margin: 2rem auto 0 auto;
+  }
+
+  .three-months {
+    margin: 1rem auto 4rem auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .product-image {
+    height: 325px;
+  }
+
+  .item-text {
+    padding: 0.5rem;
+  }
 }
