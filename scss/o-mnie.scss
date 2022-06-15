@@ -1,3 +1,45 @@
 body {
   font-size: 1.6rem;
 }
+
+.flex-container {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  animation: fadeIn 0.9s ease 0s;
+}
+
+h1 {
+      animation: fadeIn 1s ease 0s;
+
+}
+
+p {
+  line-height: 1.6;
+  max-width: 500px;
+  text-align: justify;
+  margin-bottom: 10rem;  animation: fadeIn 1.1s ease 0s;
+
+}
+
+@keyframes fadeIn {
+  0.0% {
+    transform: translate(0, -75px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
