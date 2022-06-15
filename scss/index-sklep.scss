@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.flex__container--item:nth-child(1):before {
+.new:before {
   content: "NEW";
   position: absolute;
   display: inline-block;
@@ -40,6 +40,10 @@
 /////////////
 // PRZEDMIOTY
 /////////////
+
+.item--image {
+  height: 300px;
+}
 
 .item--name {
   color: hsl(180, 0%, 44%);
