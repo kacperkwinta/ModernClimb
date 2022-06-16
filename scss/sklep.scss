@@ -21,6 +21,10 @@ h1 {
   .flex-container {
     padding: 1rem;
   }
+
+  .flex-item:last-child {
+    margin-bottom: 5rem;
+  }
 }
 
 .flex-item {
