@@ -1,20 +1,10 @@
 footer {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 0.5rem;
   animation: fadeIn 0.9s ease 0s;
 }
 
 a {
-  color: black;
-}
-
-@keyframes fadeIn {
-  0.0% {
-    transform: translate(0, -75px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  color: hsl(210, 9%, 31%);
 }

@@ -3,10 +3,12 @@
 }
 
 .section-header {
-  font-size: 5rem;
+  font-size: 5.2rem;
+  letter-spacing: -0.2rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   text-align: center;
+  color: hsl(210, 11%, 15%);
 }
 
 .flex__container {
@@ -46,26 +48,27 @@
 }
 
 .item--name {
-  color: hsl(180, 0%, 44%);
-  font-size: 1.75rem;
+  color: hsl(210, 10%, 23%);
+  font-size: 2rem;
   margin: 0;
   margin-top: 2rem;
 }
 
 .item--price {
-  font-size: 1.5rem;
+  color: hsl(210, 11%, 15%);
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
 .item--link {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 1rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  border: 1px solid hsl(36, 86%, 46%);
-  background-color: hsl(36, 86%, 56%);
+  background-color: hsl(34, 98%, 48%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: 0.3s;
 }
 
@@ -79,8 +82,8 @@
 
 .item--show {
   background-color: white;
-  color: hsl(36, 86%, 56%);
-  border: 1px solid hsl(36, 86%, 56%);
+  color: hsl(34, 98%, 48%);
+  border: 1px solid hsl(34, 98%, 48%);
 }
 
 ///////////////////
@@ -89,7 +92,6 @@
 
 .plany-treningowe {
   padding: 1rem 0;
-  background: hsla(36, 86%, 56%, 0.1);
   padding: 5rem 0;
   border-radius: 1rem;
 }

@@ -4,7 +4,9 @@ section {
 }
 
 h1 {
-  font-size: 4rem;
+  color: hsl(210, 11%, 15%);
+  letter-spacing: -0.1rem;
+  font-size: 5.2rem;
   animation: fadeIn 1s ease 0s;
 }
 
@@ -39,24 +41,26 @@ h1 {
 }
 
 .item-title {
-  font-size: 1.8rem;
-  color: gray;
+  font-size: 2rem;
+  color: hsl(210, 11%, 15%);
 }
 
 .item-price {
-  font-size: 1.5rem;
+  color: hsl(210, 10%, 23%);
+  font-size: 1.6rem;
 }
 
 .item-link {
   display: inline-block;
-  margin: 0 3px;
-  text-decoration: none;
-  color: black;
-  font-size: 1.6rem;
-  padding: 0.75rem 1.5rem;
-  border: 1px solid hsl(36, 86%, 46%);
+  padding: 0.8rem 2.5rem;
   border-radius: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: hsl(34, 98%, 48%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: 0.3s;
+  margin: 0 0.5rem;
 }
 
 .item-link:hover {
@@ -69,7 +73,9 @@ h1 {
 }
 
 .item-show {
-  color: hsl(36, 86%, 56%);
+  background-color: white;
+  color: hsl(34, 98%, 48%);
+  border: 1px solid hsl(34, 98%, 48%);
 }
 
 ////////////////////////////

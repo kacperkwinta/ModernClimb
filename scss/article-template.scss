@@ -9,8 +9,10 @@ article {
 }
 
 .article-header {
-  font-size: 3rem;
+  color: hsl(210, 11%, 15%);
+  font-size: 3.6rem;
   text-align: center;
+  letter-spacing: -0.1rem;
 }
 
 .article-image {
@@ -18,15 +20,21 @@ article {
 }
 
 .article-paragraph {
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 23%);
   line-height: 1.8;
 }
 
 .article-mini-title {
+  font-size: 2rem;
+  color: hsl(210, 9%, 31%);
   font-weight: bold;
   line-height: 1.8;
 }
 
 li {
+  font-size: 1.8rem;
+  color: hsl(210, 9%, 31%);
   line-height: 1.8;
 }
 

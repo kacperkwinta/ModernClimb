@@ -8,8 +8,10 @@
 
 .blog__container-header {
   text-align: center;
-  font-size: 5rem;
+  font-size: 5.2rem;
+  letter-spacing: -0.1rem;
   margin: 0 0 5rem 0;
+  color: hsl(210, 11%, 15%);
 }
 
 .wrapper {
@@ -21,8 +23,7 @@
 .blog__article-box {
   display: flex;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .article__box-image {
@@ -31,8 +32,7 @@
   background-size: cover;
   border-bottom-left-radius: 1rem;
   border-top-left-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .trening-antagonistyczny {
@@ -44,32 +44,37 @@
   padding: 3rem;
   background-color: white;
   border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid #f1f3f5;
 
   h2 {
-    font-size: 2.5rem;
+    color: hsl(210, 11%, 15%);
+    font-size: 3rem;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
   }
 
   p {
-    font-size: 1.75rem;
+    color: hsl(210, 10%, 23%);
+    font-size: 1.8rem;
     line-height: 1.6;
   }
 
   a {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 1.25rem 2.5rem;
     border-radius: 1rem;
     font-size: 1.6rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border: 1px solid hsl(36, 86%, 46%);
-    background-color: hsl(36, 86%, 56%);
+    background-color: hsl(35, 100%, 47%);
     transition: 0.3s;
   }
 
   a:hover {
-    opacity: 0.7;
+    opacity: 0.8;
   }
 }
 

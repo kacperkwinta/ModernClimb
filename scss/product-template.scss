@@ -23,13 +23,15 @@ section {
 }
 
 .product-header {
+  color: hsl(210, 11%, 15%);
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.6rem;
   margin-bottom: 3rem;
   animation: fadeIn 1s ease 0s;
 }
 
 .product-price {
+  color: hsl(210, 10%, 23%);
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -40,9 +42,8 @@ section {
 
 .product-description {
   text-align: left;
-  font-size: 1.6rem;
-  color: gray;
-  line-height: 1.5;
+  font-size: 1.8rem;
+  line-height: 1.7;
   animation: fadeIn 1.2s ease 0s;
 }
 
@@ -52,9 +53,9 @@ section {
 }
 
 li {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  color: gray;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: hsl(210, 10%, 23%);
 }
 
 td {
@@ -83,48 +84,63 @@ table {
   border-radius: 1rem;
   color: white;
   transition: 0.3s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 // LINKI DO PLANÓW
 .one-month {
   margin-right: 1rem;
-  background-color: hsl(83, 68%, 47%);
+  background-color: hsl(162, 73%, 46%);
   animation: fadeIn 1.4s ease 0s;
 }
 
 .one-month:hover {
-  background-color: hsl(83, 68%, 37%);
+  background-color: hsl(162, 73%, 36%);
 }
 
 .three-months {
   margin-left: 1rem;
-  background-color: hsl(203, 77%, 43%);
+  background-color: hsl(208, 80%, 52%);
   animation: fadeIn 1.5s ease 0s;
 }
 
 .three-months:hover {
-  background-color: hsl(203, 77%, 33%);
+  background-color: hsl(208, 80%, 42%);
 }
 
 .btn-container {
   text-align: center;
 }
-// LINKI DO PLANÓW //
 
 // LINKI DO KOSZULEK // WSZYSTKO DO KOSZULEK
 .koszulka-strona {
+  color: hsl(210, 10%, 23%);
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 0;  animation: fadeIn 1s ease 0s;
+  margin-bottom: 0;
+  animation: fadeIn 1s ease 0s;
+}
 
+.rozmiary h2 {
+  font-size: 2rem;
+  color: #343a40;
 }
 
 .order {
+  font-size: 2rem;
+  color: hsl(210, 11%, 15%);
   text-align: center;
   margin-top: 3rem;
   animation: fadeIn 1.6s ease 0s;
 }
 
+table,td {
+  border: 1px solid hsl(210, 9%, 31%);
+  color: hsl(210, 9%, 31%);
+}
+
 .rozmiary-container {
+  color: hsl(210, 10%, 23%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,18 +153,18 @@ table {
 }
 
 .koszulka-kup {
+  font-size: 1.6rem;
   text-decoration: none;
-  border: 1px solid gray;
+  border: 1px solid hsl(210, 10%, 23%);
   padding: 0.85rem 1rem;
-  color: black;
+  color: hsl(210, 10%, 23%);
   transition: 0.3s;
 }
 
 .koszulka-kup:hover {
-  border: 1px solid hsl(36, 86%, 66%);
-  color: hsl(36, 86%, 66%);
+  border: 1px solid hsl(21, 90%, 48%);
+  color: hsl(21, 90%, 48%);
 }
-// LINKI DO KOSZULEK //
 
 @keyframes fadeIn {
   0.0% {
@@ -196,6 +212,10 @@ table {
 }
 
 @media (max-width: 425px) {
+  .product-header {
+    font-size: 3rem;
+  }
+
   .product-image {
     height: 325px;
   }
