@@ -1,0 +1,17 @@
+.container {
+  width: 600px;
+  text-align: center;
+  padding: 50px;
+  margin: 100px auto 0 auto;
+  border: 1px solid rebeccapurple;
+}
+
+.btn {
+  display: block;
+  margin: 3rem auto 0 auto;
+  padding: 1rem 2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
