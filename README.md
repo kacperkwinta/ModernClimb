@@ -5,6 +5,7 @@
 ### Live site 🔴: [click!](https://modern-climb.pl/)
 
 Used to build:
+
 - Semantic HTML5 markup
 - Scss
 - Vanilla JS
