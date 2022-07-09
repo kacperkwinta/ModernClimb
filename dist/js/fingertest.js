@@ -69,9 +69,12 @@ function fingerTest() {
     document.getElementById("wynik-lina").innerHTML = "Lina 6c+";
     document.getElementById("wynik-lina").style.padding = "1rem";
   } else if (wynik >= 1.17 && wynik <= 1.25) {
-    document.getElementById("wynik-lina").innerHTML = "Lina 7a+";
+    document.getElementById("wynik-lina").innerHTML = "Lina 7a";
     document.getElementById("wynik-lina").style.padding = "1rem";
   } else if (wynik >= 1.26 && wynik <= 1.3) {
+    document.getElementById("wynik-lina").innerHTML = "Lina 7a+";
+    document.getElementById("wynik-lina").style.padding = "1rem";
+  } else if (wynik >= 1.3 && wynik <= 1.35) {
     document.getElementById("wynik-lina").innerHTML = "Lina 7b";
     document.getElementById("wynik-lina").style.padding = "1rem";
   } else if (wynik >= 1.36 && wynik <= 1.4) {
