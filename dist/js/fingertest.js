@@ -5,7 +5,7 @@ function fingerTest() {
   let ciezar = document.getElementById("dowieszony-ciezar").value;
 
   let wynik = (Number(waga) + Number(ciezar)) / waga;
-  console.log(Number(wynik));
+  console.log(wynik);
 
   // WYNIK DLA BOULDER
   if (wynik >= 1 && wynik <= 1.1) {
@@ -17,7 +17,7 @@ function fingerTest() {
   } else if (wynik >= 1.16 && wynik <= 1.3) {
     document.getElementById("wynik-boulder").innerHTML = "Boulder 6C";
     document.getElementById("wynik-boulder").style.padding = "1rem";
-  } else if (wynik >= 1.3 && wynik <= 1.35) {
+  } else if (wynik >= 1.3 && wynik <= 1.36) {
     document.getElementById("wynik-boulder").innerHTML = "Boulder 6C+";
     document.getElementById("wynik-boulder").style.padding = "1rem";
   } else if (wynik >= 1.36 && wynik <= 1.4) {
@@ -74,7 +74,7 @@ function fingerTest() {
   } else if (wynik >= 1.26 && wynik <= 1.3) {
     document.getElementById("wynik-lina").innerHTML = "Lina 7a+";
     document.getElementById("wynik-lina").style.padding = "1rem";
-  } else if (wynik >= 1.3 && wynik <= 1.35) {
+  } else if (wynik >= 1.3 && wynik <= 1.36) {
     document.getElementById("wynik-lina").innerHTML = "Lina 7b";
     document.getElementById("wynik-lina").style.padding = "1rem";
   } else if (wynik >= 1.36 && wynik <= 1.4) {
