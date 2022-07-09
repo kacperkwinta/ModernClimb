@@ -1,17 +1,110 @@
+body {
+  color: #343a40;
+}
+
 .container {
   width: 600px;
   text-align: center;
-  padding: 50px;
-  margin: 100px auto 0 auto;
-  border: 1px solid rebeccapurple;
+  margin: 90px auto 0 auto;
+}
+
+h1 {
+  color: #212529;
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+  animation: fadeIn 1.5s ease 0s;
+}
+
+ol {
+  padding-left: 6rem;
+  animation: fadeIn 1.5s ease 0s;
+  padding-bottom: 3rem;
+}
+
+li {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 1.7s ease 0s;
+}
+
+p:nth-child(0) {
+  animation: fadeIn 2s ease 0s;
+}
+
+input {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#waga {
+  animation: fadeIn 1.5s ease 0s;
+}
+
+#dowieszony-ciezar {
+  animation: fadeIn 1.6s ease 0s;
 }
 
 .btn {
+  background-color: hsl(21, 90%, 48%);
+  color: white;
+  border: none;
+  border-radius: 2rem;
   display: block;
-  margin: 3rem auto 0 auto;
-  padding: 1rem 2rem;
+  margin: 3rem auto;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.8rem;
+  transition: 0.1s;
+  animation: fadeIn 2.2s ease 0s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .btn:hover {
+  background-color: hsl(21, 90%, 38%);
   cursor: pointer;
+}
+
+.wyniki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#wynik-boulder,
+#wynik-lina {
+  font-size: 3rem;
+  background-color: #212529;
+  color: white;
+
+  strong {
+    font-size: 10rem;
+  }
+}
+
+#promo {
+  margin: 2rem auto;
+
+  em {
+    color: #e8590c;
+  }
+}
+
+// animation
+
+@keyframes fadeIn {
+  0.0% {
+    transform: translate(0, -75px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
