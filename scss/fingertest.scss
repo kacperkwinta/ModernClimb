@@ -24,7 +24,7 @@ ol {
 li {
   font-size: 1.4rem;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 p {
@@ -97,8 +97,18 @@ input {
   }
 }
 
-// animation
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 1rem;
+  }
 
+  ol {
+    padding-left: 3rem;
+  }
+}
+
+// animation
 @keyframes fadeIn {
   0.0% {
     transform: translate(0, -75px);
