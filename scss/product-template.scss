@@ -79,7 +79,6 @@ table {
   display: inline-block;
   font-size: 1.6rem;
   text-decoration: none;
-  color: black;
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   color: white;
@@ -134,7 +133,8 @@ table {
   animation: fadeIn 1.6s ease 0s;
 }
 
-table,td {
+table,
+td {
   border: 1px solid hsl(210, 9%, 31%);
   color: hsl(210, 9%, 31%);
 }
@@ -165,6 +165,34 @@ table,td {
   border: 1px solid hsl(21, 90%, 48%);
   color: hsl(21, 90%, 48%);
 }
+
+/////// ebook //////
+
+.ebook-list-icon {
+  width: 24px;
+}
+
+.ebook-img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ebook-link {
+  text-align: center;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(243, 183, 96);
+  transition: 0.3s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: fadeIn 1.4s ease 0s;
+}
+
+///////////////
 
 @keyframes fadeIn {
   0.0% {

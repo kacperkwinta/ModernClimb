@@ -15,17 +15,14 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 175px;
+  gap: 250px;
   padding: 10rem;
 }
 
 @media (max-width: 550px) {
   .flex-container {
     padding: 1rem;
-  }
-
-  .flex-item:last-child {
-    margin-bottom: 5rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -77,31 +74,6 @@ h1 {
   color: hsl(34, 98%, 48%);
   border: 1px solid hsl(34, 98%, 48%);
 }
-
-////////////////////////////
-// ZESTAWY
-.zestawy-main-header {
-  font-size: 4rem;
-  margin-top: 15rem;
-}
-
-.zestawy-container {
-  gap: 40px;
-}
-
-@media (max-width: 965px) {
-  .zestawy-container {
-    display: flex;
-    flex-direction: column;
-
-    img {
-      margin-top: 2rem;
-    }
-  }
-}
-//
-///////////////////////////
-
 ///////////////////////////////
 // ZDJĘCIA ITEMKÓW
 
@@ -155,6 +127,12 @@ h1 {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.ebook-img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 230px;
+}
+
 ////////////
 // ANIMATION
 
@@ -197,4 +175,8 @@ h1 {
 
 .flex-item:nth-child(8) {
   animation: fadeIn 1.6s ease 0s;
+}
+
+.flex-item:nth-child(9) {
+  animation: fadeIn 1.7s ease 0s;
 }
