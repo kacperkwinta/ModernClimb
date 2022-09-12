@@ -18,7 +18,7 @@ section {
 }
 
 .product-image {
-  height: 500px;
+  width: 100%;
   animation: fadeIn 0.9s ease 0s;
 }
 
@@ -176,23 +176,52 @@ td {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.ebook-link {
-  text-align: center;
-  display: block;
-  width: 150px;
+// MAILCHIMP CUSTOM CSS
+
+.mailchimp-container {
   margin: 0 auto;
-  font-size: 1.6rem;
-  text-decoration: none;
-  padding: 1rem 1.5rem;
-  border-radius: 1rem;
-  color: rgb(0, 0, 0);
-  background-color: rgb(243, 183, 96);
-  transition: 0.3s;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: fadeIn 1.6s ease 0s;
+}
+
+.mc-field-group {
+  padding: 0 0 10px 0 !important;
+}
+
+#mc-embedded-subscribe-form {
+  padding: 0 !important;
+}
+
+#mc-embedded-subscribe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem !important;
+  background-color: hsl(34, 98%, 48%) !important;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: hsl(34, 98%, 38%) !important;
+}
+
+////////////////////////
+
+.poczatkujacy {
+  width: 100%;
+  background-color: black;
   animation: fadeIn 1.4s ease 0s;
 }
 
-///////////////
+.sredni {
+  width: 100%;
+  background-color: black;
+  animation: fadeIn 1.4s ease 0s;
+}
+
+.zaawansowany {
+  width: 100%;
+  background-color: black;
+  animation: fadeIn 1.4s ease 0s;
+}
+
+///////////////////////
 
 @keyframes fadeIn {
   0.0% {
@@ -220,7 +249,6 @@ td {
 
 @media (max-width: 500px) {
   .product-image {
-    height: 400px;
     animation: fadeIn 0.9s ease 0s;
   }
 }
@@ -242,10 +270,6 @@ td {
 @media (max-width: 425px) {
   .product-header {
     font-size: 3rem;
-  }
-
-  .product-image {
-    height: 325px;
   }
 
   .item-text {

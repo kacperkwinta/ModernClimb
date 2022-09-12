@@ -1,198 +1,255 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Climb</title>
 
-  <title>Modern Climb</title>
+    <meta
+      name="keywords"
+      content="trening wspinaczkowy, trening, modern-climb, wspinaczka, periodyzacja, siła wspinaczkowa, trening personalny, trening indywidualny, logical progression"
+    />
 
-  <meta name="keywords"
-    content="trening wspinaczkowy, trening, modern-climb, wspinaczka, periodyzacja, siła wspinaczkowa, trening personalny, trening indywidualny, logical progression" />
+    <meta
+      name="description"
+      content="Modern-Climb jest źródłem wiedzy na temat treningu wspinaczkowego - zwiększ swoje możliwości i wiedzę o treningu!"
+    />
 
-  <meta name="description"
-    content="Modern-Climb jest źródłem wiedzy na temat treningu wspinaczkowego - zwiększ swoje możliwości i wiedzę o treningu!" />
+    <!-- theme color -->
+    <meta name="theme-color" content="#000000" />
 
-  <!-- theme color -->
-  <meta name="theme-color" content="#000000" />
+    <!-- font style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- font style -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- logo icon -->
+    <link rel="icon" type="image/x-icon" href="dist/images/logo.webp" />
 
-  <!-- logo icon -->
-  <link rel="icon" type="image/x-icon" href="dist/images/logo.webp" />
+    <!-- styles -->
+    <link rel="stylesheet" href="dist/css/global.css" />
+    <link rel="stylesheet" href="dist/css/navigation.css" />
+    <link rel="stylesheet" href="dist/css/sklep.css" />
+    <link rel="stylesheet" href="dist/css/footer.css" />
+  </head>
 
-  <!-- styles -->
-  <link rel="stylesheet" href="dist/css/global.css" />
-  <link rel="stylesheet" href="dist/css/navigation.css" />
-  <link rel="stylesheet" href="dist/css/sklep.css" />
-  <link rel="stylesheet" href="dist/css/footer.css" />
-</head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <div class="navigation">
+        <div class="navigation__container">
+          <div class="navigation-logo">
+            <a href="index.html" class="navigation-logo-link">
+              <img
+                src="dist/images/logo.webp"
+                alt="logo"
+                class="navigation-logo-icon"
+              />
+              Modern <br />
+              Climb
+            </a>
+          </div>
 
-<body>
-  <!-- navigation -->
-  <nav>
-    <div class="navigation">
-      <div class="navigation__container">
-        <div class="navigation-logo">
-          <a href="index.html" class="navigation-logo-link">
-            <img src="dist/images/logo.webp" alt="logo" class="navigation-logo-icon" />
-            Modern <br />
-            Climb
-          </a>
+          <ul class="navigation__list js-navigation-list">
+            <li class="navigation__list-item">
+              <a href="o-mnie.html" class="navigation-list-item-link">O mnie</a>
+            </li>
+
+            <li class="navigation__list-item">
+              <a href="blog.html" class="navigation-list-item-link">Blog</a>
+            </li>
+
+            <li class="navigation__list-item">
+              <a href="#" class="navigation-list-item-link">Sklep</a>
+            </li>
+
+            <li class="navigation__list-item">
+              <a href="fingertest.html" class="navigation-list-item-link"
+                >Test Siły Palców</a
+              >
+            </li>
+
+            <li class="navigation__list-item">
+              <a
+                href="https://www.facebook.com/Modern-Climb-107773528118858"
+                class="navigation-fb-link"
+                rel="noopener"
+                target="_blank"
+              >
+                <img
+                  src="dist/images/facebook.svg"
+                  alt="facebook"
+                  class="navigation-fb-icon"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <!-- mobile nav button -->
+          <button class="navigation-mobile js-navigation-mobile">
+            <img
+              src="dist/images/mobile-nav-btn.svg"
+              alt="nawigacja"
+              class="navigation-mobile-icon"
+            />
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <script src="dist/js/main-navigation.js"></script>
+
+    <section>
+      <h1>Sklep</h1>
+
+      <div class="flex-container">
+        <!-- POSZCZEGÓLNE PRZEDMIOTY -->
+        <div class="flex-item">
+          <div class="item-image plan-standard"></div>
+
+          <h2 class="item-title">Plan Standard</h2>
+
+          <h3 class="item-price">150zł</h3>
+
+          <a class="item-show item-link" href="sklep/plan-standard.html"
+            >Zobacz</a
+          >
         </div>
 
-        <ul class="navigation__list js-navigation-list">
-          <li class="navigation__list-item">
-            <a href="o-mnie.html" class="navigation-list-item-link">O mnie</a>
-          </li>
+        <div class="flex-item">
+          <div class="item-image plan-pro"></div>
 
-          <li class="navigation__list-item">
-            <a href="blog.html" class="navigation-list-item-link">Blog</a>
-          </li>
+          <h2 class="item-title">Plan Pro</h2>
 
-          <li class="navigation__list-item">
-            <a href="#" class="navigation-list-item-link">Sklep</a>
-          </li>
+          <h3 class="item-price">200zł</h3>
 
-          <li class="navigation__list-item">
-            <a href="fingertest.html" class="navigation-list-item-link">Test Siły Palców</a>
-          </li>
+          <a class="item-show item-link" href="sklep/plan-pro.html">Zobacz</a>
+        </div>
 
-          <li class="navigation__list-item">
-            <a href="https://www.facebook.com/Modern-Climb-107773528118858" class="navigation-fb-link" rel="noopener"
-              target="_blank">
-              <img src="dist/images/facebook.svg" alt="facebook" class="navigation-fb-icon" />
-            </a>
-          </li>
-        </ul>
+        <div class="flex-item">
+          <div class="item-image plan-chwytotablica"></div>
 
-        <!-- mobile nav button -->
-        <button class="navigation-mobile js-navigation-mobile">
-          <img src="dist/images/mobile-nav-btn.svg" alt="nawigacja" class="navigation-mobile-icon" />
-        </button>
+          <h2 class="item-title">Plan Chwytotablica</h2>
+
+          <h3 class="item-price">150zł</h3>
+
+          <a class="item-show item-link" href="sklep/plan-chwytotablica.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image gotowy-plan-palce-podciaganie"></div>
+          <h2 class="item-title">
+            Gotowy Plan - Siła Palców & Siła Podciągania
+          </h2>
+          <h3 class="item-price">60zł</h3>
+          <a
+            class="item-show item-link"
+            href="sklep/gotowy-plan-sila-palcow-podciaganie.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image testy-podstawowe"></div>
+
+          <h2 class="item-title">Testy Podstawowe</h2>
+
+          <h3 class="item-price">50zł</h3>
+
+          <a
+            class="item-buy item-link"
+            href="https://buy.stripe.com/5kAbJJ9uTbr30Zq7sK"
+            >Kup</a
+          >
+
+          <a class="item-show item-link" href="sklep/testy-podstawowe.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image testy-pelne"></div>
+
+          <h2 class="item-title">Pełne Testy Wspinaczkowe</h2>
+
+          <h3 class="item-price">100zł</h3>
+
+          <a
+            class="item-buy item-link"
+            href="https://buy.stripe.com/9AQfZZePd3YBgYo00h"
+            >Kup</a
+          >
+
+          <a
+            class="item-show item-link"
+            href="sklep/pelne-testy-wspinaczkowe.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image testy-cyfrowe"></div>
+
+          <h2 class="item-title">Testy Cyfrowe</h2>
+
+          <h3 class="item-price">150zł</h3>
+
+          <a
+            class="item-buy item-link"
+            href="https://buy.stripe.com/7sI2997mLamZ4bC4gz"
+            >Kup</a
+          >
+
+          <a class="item-show item-link" href="sklep/testy-cyfrowe.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image czarna-koszulka"></div>
+
+          <h2 class="item-title">
+            Czarna Koszulka <br />
+            Modern Climb
+          </h2>
+
+          <h3 class="item-price">100zł</h3>
+
+          <a class="item-show item-link" href="sklep/czarna-koszulka.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <div class="item-image niebieska-koszulka"></div>
+
+          <h2 class="item-title">
+            Niebieska Koszulka <br />
+            Modern Climb
+          </h2>
+
+          <h3 class="item-price">100zł</h3>
+
+          <a class="item-show item-link" href="sklep/niebieska-koszulka.html"
+            >Zobacz</a
+          >
+        </div>
+
+        <div class="flex-item">
+          <img src="/dist/images/sklep/ebook.png" alt="" class="ebook-img" />
+
+          <h2 class="item-title">E-book Wzmocnij Palce</h2>
+
+          <h3 class="item-price">Darmowy</h3>
+
+          <a class="item-show item-link" href="sklep/e-book.html">Zobacz</a>
+        </div>
       </div>
-    </div>
-  </nav>
-
-  <script src="dist/js/main-navigation.js"></script>
-
-  <section>
-    <h1>Sklep</h1>
-
-    <div class="flex-container">
-      <!-- POSZCZEGÓLNE PRZEDMIOTY -->
-      <div class="flex-item">
-        <div class="item-image plan-standard"></div>
-
-        <h2 class="item-title">Plan Standard</h2>
-
-        <h3 class="item-price">150zł</h3>
-
-        <a class="item-show item-link" href="sklep/plan-standard.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image plan-pro"></div>
-
-        <h2 class="item-title">Plan Pro</h2>
-
-        <h3 class="item-price">200zł</h3>
-
-        <a class="item-show item-link" href="sklep/plan-pro.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image plan-chwytotablica"></div>
-
-        <h2 class="item-title">Plan Chwytotablica</h2>
-
-        <h3 class="item-price">150zł</h3>
-
-        <a class="item-show item-link" href="sklep/plan-chwytotablica.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image testy-podstawowe"></div>
-
-        <h2 class="item-title">Testy Podstawowe</h2>
-
-        <h3 class="item-price">50zł</h3>
-
-        <a class="item-buy item-link" href="https://buy.stripe.com/5kAbJJ9uTbr30Zq7sK">Kup</a>
-
-        <a class="item-show item-link" href="sklep/testy-podstawowe.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image testy-pelne"></div>
-
-        <h2 class="item-title">Pełne Testy Wspinaczkowe</h2>
-
-        <h3 class="item-price">100zł</h3>
-
-        <a class="item-buy item-link" href="https://buy.stripe.com/9AQfZZePd3YBgYo00h">Kup</a>
-
-        <a class="item-show item-link" href="sklep/pelne-testy-wspinaczkowe.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image testy-cyfrowe"></div>
-
-        <h2 class="item-title">Testy Cyfrowe</h2>
-
-        <h3 class="item-price">150zł</h3>
-
-        <a class="item-buy item-link" href="https://buy.stripe.com/7sI2997mLamZ4bC4gz">Kup</a>
-
-        <a class="item-show item-link" href="sklep/testy-cyfrowe.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image czarna-koszulka"></div>
-
-        <h2 class="item-title">
-          Czarna Koszulka <br />
-          Modern Climb
-        </h2>
-
-        <h3 class="item-price">100zł</h3>
-
-        <a class="item-show item-link" href="sklep/czarna-koszulka.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <div class="item-image niebieska-koszulka"></div>
-
-        <h2 class="item-title">
-          Niebieska Koszulka <br />
-          Modern Climb
-        </h2>
-
-        <h3 class="item-price">100zł</h3>
-
-        <a class="item-show item-link" href="sklep/niebieska-koszulka.html">Zobacz</a>
-      </div>
-
-      <div class="flex-item">
-        <!-- <div class="item-image ebook"></div> -->
-        <img src="/dist/images/ebook.png" alt="" class="ebook-img">
-
-        <h2 class="item-title">
-          E-book Wzmocnij Palce
-        </h2>
-
-        <h3 class="item-price">Darmowy</h3>
-
-        <a class="item-show item-link" href="sklep/e-book.html">Zobacz</a>
-      </div>
-
-    </div>
-
-  </section>
-
-  
-</body>
-
+    </section>
+  </body>
 </html>

@@ -11,12 +11,14 @@ h1 {
 }
 
 .flex-container {
+  margin: 0 auto;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 250px;
-  padding: 10rem;
+  gap: 75px;
+  padding: 7rem;
 }
 
 @media (max-width: 550px) {
@@ -27,8 +29,7 @@ h1 {
 }
 
 .flex-item {
-  height: 300px;
-  width: 300px;
+  flex-basis: 300px;
 }
 
 .item-image {
@@ -133,6 +134,13 @@ h1 {
   width: 230px;
 }
 
+.gotowy-plan-palce-podciaganie {
+  background-image: url(../../dist/images/sklep/gotowy-plan-palce-podciaganie.webp);
+  background-position: 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 ////////////
 // ANIMATION
 
@@ -180,3 +188,8 @@ h1 {
 .flex-item:nth-child(9) {
   animation: fadeIn 1.7s ease 0s;
 }
+
+.flex-item:nth-child(10) {
+  animation: fadeIn 1.8s ease 0s;
+}
+
