@@ -1,6 +1,4 @@
-# ModernClimb2.0 (new version)
-
-## My main project, portfolio website for my friend who is climbing trainer.
+## My main project, portfolio website for my friend who is climbing trainer 🧗‍♀️
 
 ### Live site 🔴: [click!](https://modern-climb.pl/)
 
