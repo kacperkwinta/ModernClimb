@@ -1,8 +1,8 @@
 ## portfolio website for my friend who is climbing trainer 🧗‍♀️
 
-### Live site 🔴: [click!](https://modern-climb.pl/)
+### live site 🔴: [click!](https://modern-climb.pl/)
 
-Used to build:
+used to build:
 
 - Semantic HTML5 markup
 - Scss
