@@ -1,6 +1,6 @@
 ## portfolio website for my friend who is climbing trainer 🧗‍♀️
 
-### live site 🔴: [click!](https://modern-climb.pl/)
+### live site 🔴: [click!](https://kacperkwinta.github.io/ModernClimb/)
 
 used to build:
 
