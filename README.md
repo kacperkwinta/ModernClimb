@@ -1,4 +1,4 @@
-## portfolio website for my friend who is climbing trainer 🧗‍♀️
+## Portfolio website for my friend who is climbing trainer 🧗‍♀️
 
 ### live site 🔴: [click!](https://kacperkwinta.github.io/ModernClimb/)
 
